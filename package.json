@@ -6,8 +6,12 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "2.0.0",
     "@nuxtjs/composition-api": "0.16.4",
-    "nuxt-property-decorator": "2.8.8",
-    "nuxt": "2.14.11"
+    "@nuxtjs/svg": "^0.1.12",
+    "gsap": "^1.20.6",
+    "nuxt": "2.14.11",
+    "nuxt-mq": "^2.0.2",
+    "pace": "^0.0.4",
+    "pace-progress": "^1.0.2"
   },
   "scripts": {
     "dev": "nuxt-ts",
@@ -20,6 +24,8 @@
     "@nuxt/types": "2.14.11",
     "@nuxt/typescript-build": "2.0.3",
     "@nuxtjs/eslint-config-typescript": "5.0.0",
-    "eslint": "7.15.0"
+    "eslint": "7.15.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
   }
 }
